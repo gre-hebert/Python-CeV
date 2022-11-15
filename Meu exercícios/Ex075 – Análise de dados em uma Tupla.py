@@ -17,9 +17,9 @@ for n in números:
     if n % 2 == 0 and n != 0:
         cont += 1
 if cont == 0:
-    print('\033[1;31mNenhum\033[m número par foi digitado')
+    print('\033[1;31mNenhum\033[m número \033[1;34mpar\033[m foi digitado')
 else:
-    print('Os numeros pares são ', end='')
+    print('Os numeros \033[1;34mpares\033[m são \033[1;32m', end='')
     for n in números:
         if n % 2 == 0 and n != 0:
             print(n, end=' ')
