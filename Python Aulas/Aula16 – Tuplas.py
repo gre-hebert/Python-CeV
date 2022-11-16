@@ -64,7 +64,7 @@ print(sorted(c)) #[1, 2, 2, 4, 5, 5, 8]
 print(c.index(8)) #4
 print(d.index(8)) #1
 print(c.index(2)) #0
-print(c.index(2, 1)) #0 - Apartir da posição 1, onde tem o termo 2
+print(c.index(2, 1)) #6 - Apartir da posição 1, onde tem o termo 2
 print('-' * 100)
 pessoa = ('Gustavo', 39, 'M', 99.88)
 del(pessoa)
