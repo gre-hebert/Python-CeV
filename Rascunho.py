@@ -1,13 +1,15 @@
-lista = []
-for perguntar in range(0, 5):
-    valor = int(input('Insira um valor: '))
-    if perguntar == 0:
-        list.append(valor)
-        print('Primeiro valor adicionado')
-    else:
-        
-        if valor < list[0]:
-            lista.insert(0, valor)
+expr = str(input('Digite uma expressão: '))
+pilha = []
+for símb in expr:
+    if símb == '(':
+        pilha.append('(')
+    elif símb == ')':
+        if len(pilha) > 0:
+            pilha.pop()
         else:
-            lista.append(valor)
-            print('O valor foi adicionado na última posição.')
+            pilha.append(')')
+            break
+if len(pilha) == 0:
+    print('Expressão valída')
+else:
+    print('Inválida')
