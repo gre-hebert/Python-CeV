@@ -20,6 +20,7 @@ print('Nº | Nome                |Média')
 print('-' * 32)
 for ordinais in range(0, len(geral_boletim)):
     print(f'{ordinais + 1:2}º- {geral_boletim[ordinais][0]:<20}|{(geral_boletim[ordinais][1] + geral_boletim[ordinais][2]) / 2}pts')
+print('-' * 32)
 while True:
     escolha = int(input('Qual aluno você que mais detalhe? [Digite "999" para sair] '))
     if escolha > len(geral_boletim) and escolha != 999:
@@ -28,3 +29,5 @@ while True:
         break
     else:
         print(f'{geral_boletim[escolha - 1][0]} tirou {geral_boletim[escolha - 1][1]}pts e {geral_boletim[escolha - 1][2]}pts, média de {(geral_boletim[escolha - 1][1] + geral_boletim[escolha - 1][2]) / 2}pts')
+        print('-' * 32)
+        
