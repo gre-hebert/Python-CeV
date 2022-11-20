@@ -1,2 +1,3 @@
-nome = str(input('Nome: ')).lower().capitalize()
-print(nome)
+escolha = str(input('Digite: '))
+if escolha == int:
+    print('True')
