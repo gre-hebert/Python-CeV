@@ -14,7 +14,6 @@ Jogadores = dict()
 for repetição in range (0, 4):
     Jogadores[f'{repetição + 1}p'] = {'1d6': randint(1,6), '2d6': randint(1 , 6)}
     Jogadores[f'{repetição + 1}p']['soma'] = Jogadores[f'{repetição + 1}p']['1d6'] + Jogadores[f'{repetição + 1}p']['2d6']
-print(Jogadores)
 for P, dados in Jogadores.items():
     print(f'O {P} jogou o primeiro dado.')
     sleep(1)
