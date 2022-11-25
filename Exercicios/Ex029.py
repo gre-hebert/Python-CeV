@@ -1,6 +1,3 @@
-from email.mime import multipart
-
-
 velocidade = float(input('Qual a velocidade atual do carro? '))
 if velocidade > 80:
     print('MULTADO! Você eccedeu o limite permitido que é de 80km/h')
