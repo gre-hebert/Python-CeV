@@ -28,6 +28,6 @@ for índice, dicionário in enumerate(lista):
         print(dicionário['nome'], end=', ')
 print()
 print(f'D) Listas das pessoas que estão acima da média: ')
-for i, d in enumerate(lista):
+for d in lista:
         if d['idade'] > sum(média) / len(média):
             print(f'    => {d["nome"]}, com {d["idade"]} anos.')
