@@ -4,7 +4,7 @@ lista = []
 dicionário = {}
 '''
 lanche = ('Hamburgue', 'Suco', 'Pizza', 'Pudim')
-#Uma tupla também pode sser representada sem os ()
+#Uma tupla também pode ser representada sem os ()
 print(lanche)
 lanche = 'Hamburgue', 'Suco', 'Pizza', 'Pudim'
 print(lanche)
