@@ -9,4 +9,3 @@ lista = [{'nome': 'Gnomo Gay', 'poder': 6, 'defesa': 4}, {'nome': 'Galinha Gorda
 for x in lista:
     for a, b in x.items():
         print(a, b)
-    
