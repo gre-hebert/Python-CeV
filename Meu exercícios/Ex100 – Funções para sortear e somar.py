@@ -1,6 +1,8 @@
 from random import randint
 import time
 lista = list()
+
+
 def sorteio():
     for repetição in range (0, 5):
         lista.append(randint(0, 9))
